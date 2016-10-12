@@ -1,0 +1,1133 @@
+/*Design of this webpage has been benchmarekd from the Outpost*/
+
+@font-face {
+    font-family: 'Leitura News';
+    src: url('fonts/leituranews-roman_1-webfont.eot');
+    src: url('fonts/leituranews-roman_1-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/leituranews-roman_1-webfont.woff') format('woff'),
+        url('fonts/leituranews-roman_1-webfont.ttf') format('truetype'),
+        url('fonts/leituranews-roman_1-webfont.svg#leitura_news_roman_1regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Leitura News';
+    src: url('fonts/leituranews-roman_2-webfont.eot');
+    src: url('fonts/leituranews-roman_2-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/leituranews-roman_2-webfont.woff') format('woff'),
+        url('fonts/leituranews-roman_2-webfont.ttf') format('truetype'),
+        url('fonts/leituranews-roman_2-webfont.svg#leitura_news_roman_2regular') format('svg');
+    font-weight: 600;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: 'Leitura News';
+    src: url('fonts/leituranews-roman_3-webfont.eot');
+    src: url('fonts/leituranews-roman_3-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/leituranews-roman_3-webfont.woff') format('woff'),
+        url('fonts/leituranews-roman_3-webfont.ttf') format('truetype'),
+        url('fonts/leituranews-roman_3-webfont.svg#leitura_news_roman_3regular') format('svg');
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-weight: 900;
+    font-family: 'Leitura News';
+    src: url('fonts/leituranews-roman_4-webfont.eot');
+    src: url('fonts/leituranews-roman_4-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/leituranews-roman_4-webfont.woff') format('woff'),
+        url('fonts/leituranews-roman_4-webfont.ttf') format('truetype'),
+        url('fonts/leituranews-roman_4-webfont.svg#leitura_news_roman_4regular') format('svg');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'leitura_display_romanregular';
+    font-family: 'Leitura Display';
+    src: url('fonts/leituradisplay-roman-webfont.eot');
+    src: url('fonts/leituradisplay-roman-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/leituradisplay-roman-webfont.woff') format('woff'),
+        url('fonts/leituradisplay-roman-webfont.ttf') format('truetype'),
+        url('fonts/leituradisplay-roman-webfont.svg#leitura_display_romanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'leitura_display_romanregular';
+    font-family: 'Leitura Display';
+    src: url('fonts/leituradisplay-italic-webfont.eot');
+    src: url('fonts/leituradisplay-italic-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/leituradisplay-italic-webfont.woff') format('woff'),
+        url('fonts/leituradisplay-italic-webfont.ttf') format('truetype'),
+        url('fonts/leituradisplay-italic-webfont.svg#leitura_display_italicregular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    
+    font-family: 'Leitura News';
+    src: url('fonts/leituranews-italic_1-webfont.eot');
+    src: url('fonts/leituranews-italic_1-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/leituranews-italic_1-webfont.woff') format('woff'),
+        url('fonts/leituranews-italic_1-webfont.ttf') format('truetype'),
+        url('fonts/leituranews-italic_1-webfont.svg#leitura_news_italic_1regular') format('svg');
+    font-weight: normal;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Leitura News';
+    src: url('fonts/leituranews-italic_2-webfont.eot');
+    src: url('fonts/leituranews-italic_2-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/leituranews-italic_2-webfont.woff') format('woff'),
+        url('fonts/leituranews-italic_2-webfont.ttf') format('truetype'),
+        url('fonts/leituranews-italic_2-webfont.svg#leitura_news_italic_2regular') format('svg');
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Leitura News';
+    src: url('fonts/leituranews-italic_3-webfont.eot');
+    src: url('fonts/leituranews-italic_3-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/leituranews-italic_3-webfont.woff') format('woff'),
+        url('fonts/leituranews-italic_3-webfont.ttf') format('truetype'),
+        url('fonts/leituranews-italic_3-webfont.svg#leitura_news_italic_3regular') format('svg');
+    font-weight: 700;
+    font-style: italic;
+
+}
+
+@font-face {
+    font-family: 'Leitura News';
+    src: url('fonts/leituranews-italic_4-webfont.eot');
+    src: url('fonts/leituranews-italic_4-webfont.eot?#iefix') format('embedded-opentype'),
+        url('fonts/leituranews-italic_4-webfont.woff') format('woff'),
+        url('fonts/leituranews-italic_4-webfont.ttf') format('truetype'),
+        url('fonts/leituranews-italic_4-webfont.svg#leitura_news_italic_4regular') format('svg');
+    font-weight: 900;
+    font-style: italic;
+
+}
+
+/* ==========================================================================
+   Reseteo Inicial
+   ========================================================================== */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #000;
+}
+
+body {
+    font-size: 1em;
+    line-height: 1.4;
+    background: #ff1925;
+    font-family: 'Leitura News';
+}
+b, strong {
+    font-weight: 700;
+}
+
+a {
+    color: #405688;
+    text-decoration: none;
+}
+
+/*
+ * Remove text-shadow in selection highlight: h5bp.com/i
+ * These selection declarations have to be separate.
+ * Customize the background color to match your design.
+*/
+
+::-moz-selection {
+    background: #000000;
+    text-shadow: none;
+    color: #bfa977;
+}
+
+::selection {
+    background: #000000;
+    text-shadow: none;
+    color: #bfa977;
+}
+
+
+/*
+ * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
+*/
+
+img {
+    vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+*/
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+*/
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ==========================================================================
+   Chrome Frame prompt
+   ========================================================================== */
+
+.chromeframe {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+/* ==========================================================================
+   The Outpost by Rodrigo Garcia http://www.now-or-never.es;
+   ========================================================================== */
+
+h1, h2, h3, h4, h5, h6 {
+    /*font-weight: normal;*/
+}
+
+.clear_float:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+#container {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+#top_header {
+    width: 940px;
+    height: 154px;
+    position: fixed;
+    top: 0;
+    left:50%;
+    margin-left: -470px;
+    z-index: 900;
+}
+
+nav {
+    width: 640px;
+    height: 45px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    height: 45px;
+}
+
+nav ul li {
+    width: 140px;
+    display: inline;
+}
+nav ul li a {
+    border-top: 15px solid #000;
+    display: block;
+    width: 140px;
+    margin: 0 0 0 20px;
+    float: left;
+    cursor: pointer;
+    height: 32px;
+    color: #000;
+    text-decoration: none;
+    font-size: 12px;
+
+    position: relative;
+    text-indent: -9999px;
+}
+
+#top_header nav ul{
+    float: right;
+}
+
+
+#top_header nav ul li.logo {
+    width: 40px;
+    height: 40px;
+    position: absolute;;
+    bottom: -109px;
+    left: -300px;
+    display: block;
+    background: url('../img/logo.png') 0 0 no-repeat;
+    float: none;
+    border: none;
+    text-indent: -9999px;
+}
+
+#top_header nav ul li.logo a{
+    border: none;
+    width: 40px;
+    height: 40px;
+    margin: 0;
+}
+
+.menu1 {
+    background: url('../img/menu1.png') 0 15px no-repeat;
+}
+
+.menu2 {
+    background: url('../img/menu2.png') 0 15px no-repeat;
+}
+
+.menu3 {
+    background: url('../img/menu3.png') 0 15px no-repeat;
+}
+
+.menu4 {
+    background: url('../img/menu4.png') 0 15px no-repeat;
+}
+
+/* nav ul .logo a {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    bottom: -109px;
+    left: -320px;
+    margin: 0;
+    float: none;
+    border: none;
+    background: url('../img/logo.png') 0 0 no-repeat;
+    text-indent: -9999px;
+}*/
+
+#featured, #audio, #about, #issues, #contact, #build, #recruiting, #origine, #subscribe, .collector {
+    width: 100%;
+    height: 550px;
+    padding: 196px 0 0 0;
+}
+
+.collector {
+    height: auto;
+}
+
+#build {
+    height: 600px;
+}
+
+#contact {
+    height: 700px;
+}
+
+.posts-list {
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+    margin: 0 auto 0 auto;
+}
+
+.w960 {
+    width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+#about_content {
+    margin: 0 auto;
+    width: 640px;
+    padding-right: 90px;
+    padding-left: 230px;
+}
+
+#origine_content {
+    margin: 0 auto;
+    width: 640px;
+    padding-right: 90px;
+    padding-left: 230px;
+    position: relative;;
+}
+
+#origine p {
+    width: 300px;
+    margin: 0 0 0 20px;
+    float:left;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#origine p a{
+    font-style: italic;
+    color: #000;
+}
+
+#origine_info, #recruiting_info, .collector_info, #issues_info {
+    position: absolute;
+    left: 10px;
+    width: 220px;
+}
+
+#origine_info p, #recruiting_info p {
+    font-weight: 900;
+    font-size: 25px;
+    line-height: 30px;
+    margin: 0;
+}
+
+#recruiting_info p span {
+    font-weight: 900;
+    font-style: italic;
+}
+
+#featured .cont_featured{
+    position: relative;
+    width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+}
+
+#featured p a {
+    font-family: 'Leitura Display';
+    width: 830px;
+    /*padding-right: 160px;*/
+    font-size: 91px;
+    line-height: 102px;
+    letter-spacing:-2px;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    margin: 0;
+    color: #000;
+}
+
+#featured p a .textFeatured {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px !important;
+    letter-spacing: 0;
+    display: block;
+}
+
+#feature p a .textFeatured .cursiva {
+    font-weight: 900;
+    font-style: italic;
+}
+
+#about p {
+    width: 300px;
+    margin: 0 0 0 20px;
+    float:left;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.negrita {
+    font-weight: 900;
+}
+
+.carrousel, .carrousel2 {
+    width: 640px;
+    height: 437px;
+    padding-left: 220px;
+    padding-right: 80px;
+    overflow: hidden;
+    position: absolute;
+    left: 220px;
+}
+
+.carrousel2 {
+    height: 405px !important;
+}
+
+.post_list2 {
+    margin: 0;
+    padding: 0;
+}
+
+.posts-list2 li {
+    width: 620px;
+    margin: 0 0 0 0;
+    display: block;
+    float: left;    
+}
+
+.controls {
+    float: left;
+}
+
+.posts-list {
+    width: 640px;
+    /*height: 437px;*/
+    margin: 0 auto 0 auto;
+    padding: 0;
+    /*padding-left: 220px;
+    padding-right: 80px;
+    */
+}
+
+.content_podcast {
+    width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#podcast_info {
+    font-style: italic;
+    font-size: 13px;
+    width: 160px;
+    position: absolute;
+    top: -14px;
+    left: 10px;
+}
+
+#podcast_info p .negrita {
+    font-weight: 900;
+    font-style: italic;
+}
+#podcast_info p a {
+    color: #000;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.hentry {
+    position: relative;
+    padding: 22px 0 0 0;
+}
+.hentry_height {
+    height: 465px;
+}
+
+.a_left, .a_right {
+    width: 30px;
+    height: 30px;
+    text-indent: -9999px;
+    display: block;
+    position: absolute;
+}
+
+.hentry .entry-content p a {
+    color: #000;
+    text-decoration: underline;
+    font-weight: 700;
+}
+.hentry .entry-content p .italic {
+    font-style: italic;
+}
+
+.a_left {
+    top: 195px;
+    /*left: 170px;*/
+    background: url('../img/arrow_left.png') 0 0 no-repeat;
+}
+
+.a_right {
+    top: 195px;
+    left: 920px;
+    background: url('../img/arrow_right.png') 0 0 no-repeat;
+}
+
+
+
+.posts-list li {
+    width: 300px;
+    margin: 0 0 0 20px;
+    display: block;
+    float: left;    
+}
+
+.posts-list li h4 {
+    font-size: 16px;
+    line-height: 18px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 0;
+}
+.posts-list li h2 {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 28px;
+    font-weight: normal;
+    margin: -9px 0 0 0;
+}
+
+.posts-list li h2 a {
+    color: #000;
+    text-decoration: none;
+}
+
+.posts-list li footer {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 1.3em;
+    border: none;
+    position: absolute;
+    top: 0;
+}
+
+.entry-content p {
+    
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.entry-content dt {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 14px;
+}
+
+.entry-content dd {
+    font-weight: 600;
+    font-size: 14px;
+    margin: 0 0 5px 0;
+}
+
+.podcast_link {
+    font-size: 16px;
+    font-weight: 900;
+    font-style: italic;
+    color: #000;
+    margin-top: 31px;
+    display: block;
+    padding: 4px 0 0 38px;
+    height: 30px;
+    background: url('../img/podcast.png') 0 0 no-repeat;
+}
+.podcast_link img {
+    margin: 0 10px 10px 0;
+}
+.save_as {
+    margin: 0;
+    font-size: 14px;
+}
+
+#content_issues {
+    /*width: 620px;
+    padding: 0 80px 0 240px;
+    margin: 0 auto;
+    position: relative;*/
+
+    width: 940px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
+    position: relative;
+}
+
+#issues_info {
+    width: 160px;
+    
+    font-style: italic;
+    font-size: 13px;
+}
+
+#issues_info a{
+    color: #000;
+    font-weight: 900;
+    font-style: italic;
+}
+
+#content_issues ol li {
+    list-style: none;
+}
+
+#content_issues ol li img {
+    float: left;
+    margin-right: 28px;
+}
+
+#content_issues ol li h4 {
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0;
+}
+
+#content_issues ol li h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 900;
+    font-style: italic;
+    margin: 0;
+}
+#content_issues ol li p {
+    
+    width:590px;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#content_issues ol li p a{
+    font-weight: 900;
+    font-style: italic;
+    color: #000;
+}
+
+#content_contact {
+    width: 700px;
+    margin: 0 auto;
+    padding: 0 0 0 240px;
+}
+
+#content_contact p {
+    
+    font-size: 16px;
+}
+
+#content_contact p a{
+    font-weight: 900;
+    font-style: italic;
+    font-size: 16px;
+    color: #000;
+}
+
+#content_contact p a {
+    width: 25px;
+    height: 25px;
+    display: block;
+    text-indent: -9999px;
+    margin-right: 7px;
+    float: left;
+}
+
+.mail {
+    background: url('../img/ico_mail.png') 0 0 no-repeat;
+}
+
+.face {
+    background: url('../img/ico_face.png') 0 0 no-repeat;
+}
+
+.twitter {
+    background: url('../img/twittericon.png') 0 0 no-repeat;
+}
+
+.margen_p_contact {
+    margin-bottom: 28px;
+}
+
+#content_build {
+    width: 940px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#build_dest {
+    width: 481px;
+    float: left;
+    margin: 0 79px 0 0;
+    font-family: 'Leitura Display';
+    font-size: 85px;
+    line-height: 90px;
+    height: 500px;
+    background: url('../img/built.png') 6px 27px no-repeat;
+}
+
+#build_dest p {
+    margin:0;
+}
+
+#buid_text {
+    width: 300px;
+    float: left;
+    
+    font-size: 16px;
+}
+
+#buid_text a {
+    font-weight: 900;
+    font-style: italic;
+    color: #000;
+}
+
+#content_subscribe {
+    
+    width: 640px;
+    padding-left: 230px;
+    padding-right: 90px;
+    margin: 0 auto;
+    font-size: 16px;
+}
+
+#content_subscribe a {
+    font-family: 'Leitura Display';
+    color: #000;
+}
+
+#content_subscribe .big {
+    font-family: 'Leitura Display';
+    font-size: 50px;
+    line-height: 1.1em;
+}
+
+#content_recruiting {
+    margin: 0 auto;
+    width: 640px;
+    padding-right: 90px;
+    padding-left: 230px;
+    position: relative;
+}
+
+#content_recruiting .columnRecruiting {
+    width: 300px;
+    margin: 0 0 0 20px;
+    float: left;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+#content_recruiting .columnRecruiting h4{
+    font-weight: 900;
+    font-size: 20px;
+    margin:0 0 9px 0;
+}
+
+#content_recruiting .columnRecruiting p{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    margin:0 0 38px 0;
+}
+
+#content_recruiting .columnRecruiting p a{
+    font-weight: 900;
+    font-style: italic;
+    color: #000;
+}
+
+.content_collector {
+    margin: 0 auto;
+    width: 660px;
+    padding-right: 70px;
+    padding-left: 120px;
+    position: relative;
+}
+
+/*.scrolling {
+    height: 350px;
+    padding-right: 20px;
+    overflow: scroll;
+}*/
+
+.scrolling p {
+    margin-left: 20px;
+}
+
+.collector p{
+    margin: 0;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.collector_info {
+    top: -28px;
+}
+
+.collector_info p {
+    font-weight: 900;
+    font-style: italic;
+    font-size: 25px;
+
+}
+
+.collector_info p span{
+    font-size: 50px;
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Image replacement
+*/
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    /* IE 6/7 fallback */
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 100%;
+}
+
+/*
+ * Hide from both screenreaders and browsers: h5bp.com/u
+*/
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+
+/*
+ * Hide only visually, but have it available for screenreaders: h5bp.com/v
+*/
+
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+/*
+ * Extends the .visuallyhidden class to allow the element to be focusable
+ * when navigated to via the keyboard: h5bp.com/p
+*/
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+/*
+ * Hide visually and from screenreaders, but maintain layout
+*/
+
+.invisible {
+    visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+*/
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/*
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+*/
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   Theses examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+    /* Style adjustments for viewports that meet the condition */
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+only screen and (min-resolution: 144dpi) {
+    /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid required HTTP connection: h5bp.com/r
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important; /* Black prints faster: h5bp.com/s */
+        box-shadow:none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    /*
+     * Don't show links for images, or javascript/internal links
+    */
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group; /* h5bp.com/t */
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px), only screen and (max-device-width: 480px) {
+    .logo {
+        background: url('../img/logo.h.png') 0 0 no-repeat !important;
+        background-size: 40px 40px !important;
+    }
+    .menu1 {
+        background-image: url('../img/menu1.h.png') !important;
+        background-size: 128px 13px !important;
+    }
+
+    .menu2 {
+        background-image: url('../img/menu2.h.png') !important;
+        background-size: 78px 11px !important;
+    }
+
+    .menu3 {
+        background-image: url('../img/menu3.h.png') !important;
+        background-size: 83px 11px !important;
+    }
+
+    .menu4 {
+        background-image: url('../img/menu4.h.png') !important;
+        background-size: 53px 9px !important;
+    }
+
+    #build_dest {
+        background-image: url('../img/built.h.png') !important;
+        background-size: 474px 474px !important;
+    }
+
+    .podcast_link {
+        background-size: 30px 30px !important;
+        background-image: url('../img/podcast.h.png') !important;
+    }
+
+    .mail {
+        background: url('../img/ico_mail.h.png') 0 0 no-repeat;
+        background-size: 25px 25px !important;
+    }
+
+    .face {
+        background: url('../img/ico_face.h.png') 0 0 no-repeat;
+        background-size: 25px 25px !important;
+    }
+
+    .twitter {
+        background: url('../img/twittericon.h.png') 0 0 no-repeat;
+        background-size: 25px 25px !important;
+    }
+
+    .a_left {
+        background: url('../img/arrow_left.h.png') 0 0 no-repeat;
+        background-size: 30px 30px !important;
+    }
+
+    .a_right {
+        background-size: 30px 30px !important;
+        background: url('../img/arrow_right.h.png') 0 0 no-repeat;
+    }
+}
+
+
+#network{
+    margin: auto;
+    width: 960px;
+}
+
+#network ul{
+    list-style: none;
+}
+
+#network h4 {
+    margin-bottom: -10px;
+    font-family: 'Leitura Display';
+    font-weight: normal;
+    font-style: italic;
+    font-size: 18px;
+}
